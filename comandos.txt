@@ -1,0 +1,17 @@
+git clone https://github.com/Vitor0sousa/Pokemon-main
+dir
+cd Pokemon-main
+cd backend-pokemon
+dir
+npm install express sqlite3 multer cors
+cd ..
+cd pokemon
+npm install
+npm audit fix --force
+cd ..
+git status
+git add .
+git status
+git commit -m "pokedex pokemon"
+git push
+doskey /h >comandos.txt
